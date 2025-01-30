@@ -1,0 +1,53 @@
+.popover_container{
+    max-width: 800px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    max-height: 100vh;
+}
+
+.popover_img{
+    max-width: 100%;
+    height: auto;
+}
+
+.max-w-sm{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+img.rounded-t-lg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.szinezes{
+	font-size: 200px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: linear-gradient(to right, purple, pink, green);
+	color: transparent;
+	background-clip: text;
+}
+
+.gomb:hover{
+	animation-name: színváltás;
+	animation-duration: 1s;	
+	animation-fill-mode: forwards;
+}
+
+@keyframes színváltás{
+	from{background-color: rgb(29, 78, 216);}
+	to{background-color: green;}
+}
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+	.szinezes {
+	  font-size: 60px;
+	}
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1050px) {
+	.szinezes {
+	  font-size: 100px;
+	}
+  }
