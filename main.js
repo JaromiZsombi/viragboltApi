@@ -1,5 +1,5 @@
-const urlAdat = `https://viragbolt-backend.onrender.com/api/flowers`
-const urlKateg = `https://viragbolt-backend.onrender.com/api/categories`
+const urlAdat = `https://raw.githubusercontent.com/mkatay/projects_json/refs/heads/main/flowers`
+const urlKateg = `https://raw.githubusercontent.com/mkatay/projects_json/refs/heads/main/flowers_categories`
 let products = []
 
 getData(urlKateg, renderButtons)
